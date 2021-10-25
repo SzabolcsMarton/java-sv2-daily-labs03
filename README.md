@@ -1,1 +1,1 @@
-# java-sv2-daily-labs03
+# Java sv2 Tanfolyam napi konzultacios feladatok.
