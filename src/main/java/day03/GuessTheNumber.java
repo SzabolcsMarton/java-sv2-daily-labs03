@@ -10,7 +10,7 @@ public class GuessTheNumber {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        int numberToGuess = random.nextInt(101);
+        int numberToGuess = random.nextInt(100) + 1;
 
         System.out.println("Guess the Number between 1 - 100!");
         System.out.println("You can try 6 times");
