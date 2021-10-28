@@ -15,9 +15,10 @@ public class GuessTheNumber {
         System.out.println("Guess the Number between 1 - 100!");
         System.out.println("You can try 6 times");
         boolean guessed = false;
+        int numberToCheck;
         for (int i = 0; i < 6; i++) {
             System.out.println("Tip: ");
-            int numberToCheck = scanner.nextInt();
+            numberToCheck = scanner.nextInt();
             if (numberToCheck == numberToGuess) {
                 System.out.println("Guessed Right!!");
                 guessed = true;
